@@ -1,0 +1,25 @@
+{
+  "name": "week-days",
+  "version": "1.0.0",
+  "description": "간단한 TypeScript 유틸리티: 실행하면 오늘이 속한 ‘이번 주’ 월~금 날짜를 `m.dd(월)` 형식으로 반환합니다.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/week_day.js",
+    "dev": "node --watch src/week_day.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-am-jiwon/week-days.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-am-jiwon/week-days/issues"
+  },
+  "homepage": "https://github.com/i-am-jiwon/week-days#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
