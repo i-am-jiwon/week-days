@@ -38,7 +38,8 @@ npx tsc --init \
 {
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
+    "start": "node dist/week_day.js",
+    "dev": "node --watch src/week_day.ts"
   },
 }
 ```
